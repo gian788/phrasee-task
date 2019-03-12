@@ -1,0 +1,12 @@
+exports.ForbiddenError = require('./ForbiddenError');
+exports.HTTPError = require('./HTTPError');
+exports.HTTPErrorResponse = require('./HTTPErrorResponse');
+exports.InternalServerError = require('./InternalServerError');
+exports.IllegalArgumentError = require('./IllegalArgumentError');
+exports.NotFoundError = require('./NotFoundError');
+exports.RestAPIError = require('./RestAPIError');
+exports.UnauthorizedError = require('./UnauthorizedError');
+exports.ValidationError = require('./ValidationError');
+exports.BadRequestError = require('./BadRequestError');
+exports.RestResponseError = require('./RestResponseError');
+exports.responseErrorCodes = require('./responseErrorCodes');

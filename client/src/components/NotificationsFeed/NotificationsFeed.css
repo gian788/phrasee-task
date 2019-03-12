@@ -1,0 +1,41 @@
+.notification-list {
+  list-style: none;
+  background: white;
+  border: silver;
+  width: 400px;
+  padding: 5px 10px;
+}
+
+.notification-element {
+  border-bottom: 1px solid silver;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0;
+}
+
+.notification-element:last-child {
+  border-bottom: 0;
+}
+
+.notification-element-img-container {
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  flex: 0 0 50px;
+}
+
+.notification-element-img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.notification-element-text {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.notification-element-text-user-name {
+  color: #3F51B5;
+  font-weight: bold;
+}

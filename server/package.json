@@ -1,0 +1,32 @@
+{
+  "name": "express-boilerplate",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha \"*.spec.js\" \"**/*.spec.js\"",
+    "lint": "eslint src/**/*.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "deep-freeze-strict": "^1.1.1",
+    "express": "^4.16.4",
+    "express-https-redirect": "^1.0.0",
+    "lodash.find": "^4.6.0",
+    "morgan": "^1.9.1",
+    "qs": "^6.6.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-react": "^7.12.4",
+    "mocha": "5.2.0",
+    "sinon": "^7.2.7",
+    "sinon-chai": "^3.3.0"
+  }
+}

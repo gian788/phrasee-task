@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb",
+    "env": {
+      "node": true,
+      "mocha": true
+    },
+    "rules": {
+      "no-unused-vars": ["error", { "vars": "local", "args": "after-used" }],
+      "no-confusing-arrow": 0,
+      "global-require": 0
+    }
+}
